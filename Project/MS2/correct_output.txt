@@ -1,0 +1,152 @@
+Script started on Mon 20 Jun 2022 06:38:36 PM EDT
+==105714== Memcheck, a memory error detector
+==105714== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==105714== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==105714== Command: ws
+==105714== 
+Loading Data
+
+Testing exiting with no change:
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 1
+Adding new publication to library
+Add this publication to library?
+ 1- Yes
+ 0- Exit
+> 0
+
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 0
+
+-------------------------------------------
+Thanks for using Seneca Library Application
+
+Testing exiting with change and discarding data:
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 2
+Removing publication from library
+Searching for publication
+Remove this publication from the library?
+ 1- Yes
+ 0- Exit
+> 1
+Publication removed
+
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 0
+Changes have been made to the data, what would you like to do?
+ 1- Save changes and exit
+ 2- Cancel and go back to the main menu
+ 0- Exit
+> 0
+This will discard all the changes are you sure?
+ 1- Yes
+ 0- Exit
+> 1
+
+-------------------------------------------
+Thanks for using Seneca Library Application
+
+Testing exiting with change and saving data:
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 3
+Searching for publication
+Check out publication?
+ 1- Yes
+ 0- Exit
+> 1
+Publication checked out
+
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 0
+Changes have been made to the data, what would you like to do?
+ 1- Save changes and exit
+ 2- Cancel and go back to the main menu
+ 0- Exit
+> 1
+Saving Data
+
+-------------------------------------------
+Thanks for using Seneca Library Application
+
+Testing all actions:
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 4
+Searching for publication
+Returning publication
+Publication returned
+
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 0
+Changes have been made to the data, what would you like to do?
+ 1- Save changes and exit
+ 2- Cancel and go back to the main menu
+ 0- Exit
+> 2
+
+Seneca Library Application
+ 1- Add New Publication
+ 2- Remove Publication
+ 3- Checkout publication from library
+ 4- Return publication to library
+ 0- Exit
+> 0
+Changes have been made to the data, what would you like to do?
+ 1- Save changes and exit
+ 2- Cancel and go back to the main menu
+ 0- Exit
+> 1
+Saving Data
+
+-------------------------------------------
+Thanks for using Seneca Library Application
+==105714== 
+==105714== HEAP SUMMARY:
+==105714==     in use at exit: 0 bytes in 0 blocks
+==105714==   total heap usage: 27 allocs, 27 frees, 73,197 bytes allocated
+==105714== 
+==105714== All heap blocks were freed -- no leaks are possible
+==105714== 
+==105714== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 20 Jun 2022 06:39:06 PM EDT

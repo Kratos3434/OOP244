@@ -1,0 +1,14 @@
+In line number 19 of your output:
+The output should be:
+ 1- Yes
+    ^
+But your output is: 
+ 1- yes
+    ^
+
+Unmatched character details:
+The character in column 5 is supposed to be:
+  [Y] ASCII code(89)
+but you printed
+  [y] ASCII code(121)
+

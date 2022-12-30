@@ -1,0 +1,14 @@
+In line number 31 of your output:
+The output should be:
+Title: Seneca Weekly
+       ^
+But your output is: 
+Title: 2022/7/17
+       ^
+
+Unmatched character details:
+The character in column 8 is supposed to be:
+  [S] ASCII code(83)
+but you printed
+  [2] ASCII code(50)
+

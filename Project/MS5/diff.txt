@@ -1,0 +1,14 @@
+In line number 21 of your output:
+The output should be:
+Aborted!
+^
+But your output is: 
+
+ ^
+
+Unmatched character details:
+The character in column 2 is supposed to be:
+  [A] ASCII code(65)
+but you printed
+  [Empty Line] ASCII code(0)
+

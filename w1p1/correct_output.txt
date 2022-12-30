@@ -1,0 +1,86 @@
+Script started on Fri 13 May 2022 11:47:32 PM EDT
+==185203== Memcheck, a memory error detector
+==185203== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==185203== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==185203== Command: ws
+==185203== 
+[3;J[H[2J-->>> My Shopping List <<<--
+1-[ ]Oranges qty:(4)
+2-[ ]Apples qty:(4)
+3-[ ]Bananas qty:(10)
+4-[ ]Frozen Strawberries qty:(1)
+5-[X]Milk 3% qty:(2)
+6-[ ]Milk Skim qty:(1)
+7-[ ]Lundry Detergent liquic qty:(1)
+8-[ ]Lundry Detergent pods qty:(1)
+----------------------------
+1- Toggle bought Item
+2- Add Shopping Item
+3- Remove Shopping Item
+4- Remove bought Items
+5- Clear List
+0- Exit
+> 1
+Item number: 3
+[3;J[H[2J-->>> My Shopping List <<<--
+1-[ ]Oranges qty:(4)
+2-[ ]Apples qty:(4)
+3-[X]Bananas qty:(10)
+4-[ ]Frozen Strawberries qty:(1)
+5-[X]Milk 3% qty:(2)
+6-[ ]Milk Skim qty:(1)
+7-[ ]Lundry Detergent liquic qty:(1)
+8-[ ]Lundry Detergent pods qty:(1)
+----------------------------
+1- Toggle bought Item
+2- Add Shopping Item
+3- Remove Shopping Item
+4- Remove bought Items
+5- Clear List
+0- Exit
+> 4
+Removing bought items, are you sure?
+(Y)es/(N)o: y
+[3;J[H[2J-->>> My Shopping List <<<--
+1-[ ]Oranges qty:(4)
+2-[ ]Apples qty:(4)
+3-[ ]Frozen Strawberries qty:(1)
+4-[ ]Milk Skim qty:(1)
+5-[ ]Lundry Detergent liquic qty:(1)
+6-[ ]Lundry Detergent pods qty:(1)
+----------------------------
+1- Toggle bought Item
+2- Add Shopping Item
+3- Remove Shopping Item
+4- Remove bought Items
+5- Clear List
+0- Exit
+> 2
+Item name: Tooth Paste
+Quantity: 3
+[3;J[H[2J-->>> My Shopping List <<<--
+1-[ ]Oranges qty:(4)
+2-[ ]Apples qty:(4)
+3-[ ]Frozen Strawberries qty:(1)
+4-[ ]Milk Skim qty:(1)
+5-[ ]Lundry Detergent liquic qty:(1)
+6-[ ]Lundry Detergent pods qty:(1)
+7-[ ]Tooth Paste qty:(3)
+----------------------------
+1- Toggle bought Item
+2- Add Shopping Item
+3- Remove Shopping Item
+4- Remove bought Items
+5- Clear List
+0- Exit
+> 0
+==185203== 
+==185203== HEAP SUMMARY:
+==185203==     in use at exit: 0 bytes in 0 blocks
+==185203==   total heap usage: 3 allocs, 3 frees, 73,840 bytes allocated
+==185203== 
+==185203== All heap blocks were freed -- no leaks are possible
+==185203== 
+==185203== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 13 May 2022 11:50:20 PM EDT

@@ -1,0 +1,153 @@
+Script started on Mon 20 Jun 2022 05:55:45 PM EDT
+==101029== Memcheck, a memory error detector
+==101029== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==101029== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==101029== Command: ws
+==101029== 
+[38;5;9mTesting Date module:[0m
+0 days since ms1 was published
+Current Date: 2022/06/20
+Enter [38;5;13mabc: [0mabc
+cin Failed
+Enter [38;5;13m1000/1/1: [0m1000/1/1
+Bad Year Value
+Enter [38;5;13m2024/1/1: [0m2024/1/1
+Bad Year Value
+Enter [38;5;13m2000/13/1: [0m2000/13/1
+Bad Month Value
+Enter [38;5;13m2000/1/0: [0m2000/1/0
+Bad Day Value
+[38;5;12m------------------------------------------[0m
+All the following statements must be correct: 
+2022/06/20 <= 2022/06/20
+2022/06/20 >= 2022/06/20
+2022/06/20 <= 2022/06/20
+2022/06/20 >= 2022/06/20
+2022/06/20 == 2022/06/20
+2022/06/20 == 2022/06/20
+Days between the two dates: 0
+[38;5;12m------------------------------------------[0m
+All the following statements must be correct: 
+2022/06/20 > 2021/06/20
+2022/06/20 >= 2021/06/20
+2022/06/20 > 2021/06/20
+2022/06/20 >= 2021/06/20
+2022/06/20 != 2021/06/20
+2022/06/20 != 2021/06/20
+Days between the two dates: 365
+[38;5;12m------------------------------------------[0m
+All the following statements must be correct: 
+2022/06/20 <= 2023/06/20
+2022/06/20 < 2023/06/20
+2022/06/20 <= 2023/06/20
+2022/06/20 < 2023/06/20
+2022/06/20 != 2023/06/20
+2022/06/20 != 2023/06/20
+Days between the two dates: -365
+[38;5;12m------------------------------------------[0m
+[38;5;9mtesting Menu Module:[0m
+The >< menu is empty
+The Lunch Menu is not empty and has 3 menu items.
+[38;5;13m>>>>>Enter 0 and then 0 again[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 0
+ 1- Order more
+ 0- Exit
+> 0
+Your orders: 
+You didn't order anything!
+[38;5;13m>>>>>Enter 1[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 1
+you chose Omelet
+[38;5;13m>>>>>Enter 1 again[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 1
+you chose Omelet
+[38;5;13m>>>>>Enter 2[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 2
+you chose Tuna Sandwich
+[38;5;13m>>>>>Enter 1[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 1
+you chose Omelet
+[38;5;13m>>>>>Enter 3[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 3
+you chose California Roll
+[38;5;13m>>>>>Enter 4 and then 3[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 4
+Invalid Selection, try again: 3
+you chose California Roll
+[38;5;13m>>>>>Enter -1 and then 3[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> -1
+Invalid Selection, try again: 3
+you chose California Roll
+[38;5;13m>>>>>Enter abc and then 1[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> abc
+Invalid Selection, try again: 1
+you chose Omelet
+[38;5;13m>>>>>Enter 0 and then 0 again[0m
+Lunch Menu:
+ 1- Omelet
+ 2- Tuna Sandwich
+ 3- California Roll
+ 0- Exit
+> 0
+ 1- Order more
+ 0- Exit
+> 0
+Your orders: 
+4 Omelets
+1 Tuna Sandwich
+3 California Rolls
+==101029== 
+==101029== HEAP SUMMARY:
+==101029==     in use at exit: 0 bytes in 0 blocks
+==101029==   total heap usage: 25 allocs, 25 frees, 75,800 bytes allocated
+==101029== 
+==101029== All heap blocks were freed -- no leaks are possible
+==101029== 
+==101029== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 20 Jun 2022 05:56:46 PM EDT
