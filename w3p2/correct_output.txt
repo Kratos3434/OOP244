@@ -1,0 +1,27 @@
+Script started on Sun 29 May 2022 12:38:44 AM EDT
+==162716== Memcheck, a memory error detector
+==162716== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==162716== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==162716== Command: ws
+==162716== 
+Premature draw call:
+Invalid Chart!
+Proper draw call after all samples are entered:
+How much students like this lab.
+-----------------------------------------------------------------------
+Best Lab Ever.......|=
+Good Lab............|=====
+Doable Lab..........|===============================
+Bad Lab.............|=====
+Worst Lab Ever......|==
+-----------------------------------------------------------------------
+==162716== 
+==162716== HEAP SUMMARY:
+==162716==     in use at exit: 0 bytes in 0 blocks
+==162716==   total heap usage: 3 allocs, 3 frees, 72,877 bytes allocated
+==162716== 
+==162716== All heap blocks were freed -- no leaks are possible
+==162716== 
+==162716== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 29 May 2022 12:38:45 AM EDT

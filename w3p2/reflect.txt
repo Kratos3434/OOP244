@@ -1,0 +1,18 @@
+/*
+Name: Keith Carlos
+Section: NHH
+Email: kwcarlos@myseneca.ca
+Student ID: 127638211
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+The topics that I have learned upon completing this workshop is that I learned how to 
+create a class and name an object. I have learned that you can create different objects
+and define data and functions into the same class and that I can set these data private or
+public. In the workshop, what we did was encapsulation where we made the variables private
+while we made the functions public so that we cannot modify the values of a class outside 
+of the class. I have also learned how to manipulate data, like set a double variable to 
+one decimal places. The most difficult part for me in the workshop is the add function. I
+overcame the problem by testing and debugging the function until I solved it.

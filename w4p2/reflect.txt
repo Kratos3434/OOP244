@@ -1,0 +1,20 @@
+/*
+Name: Keith Carlos
+Section: NHH
+Email: kwcarlos@myseneca.ca
+Student ID: 127638211
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+What I have learned in doing this workshop is that I have learned how to create a constructor.  Like in 
+the current workshop, we constructed a value for the object and only accept the values if they are valid 
+and if not then we set them to an empty state. I also learned to create a constructor that has no 
+parameters and set it to an empty state if there is really nothing. I have also learned how to create a 
+destructor; a destructor is basically deallocating the dynamically allocated array, e.g. A cstring, if it goes 
+out of scope and to ensure that there are no memory leaks in the program.  The workshop is not that 
+hard, but I struggled with sorting the values, I tried to create my own sort function by bubble sorting the 
+battery and the result was that my program always crashed so I used the “qsort” function since it is the 
+sorting function that I used in IPC144 and it is the preferred sorting function of my IPC professor and 
+somehow the qsort function solved the problem of sorting for me. 

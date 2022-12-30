@@ -1,0 +1,14 @@
+In line number 12 of your output:
+The output should be:
+List of available powers: 
+                         ^
+But your output is: 
+List of available powers:
+                          ^
+
+Unmatched character details:
+The character in column 27 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [Empty Line] ASCII code(0)
+

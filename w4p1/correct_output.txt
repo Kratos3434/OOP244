@@ -1,0 +1,46 @@
+Script started on Wed 01 Jun 2022 09:33:25 PM EDT
+==130962== Memcheck, a memory error detector
+==130962== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==130962== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==130962== Command: ws
+==130962== 
+Information was set correctly!
+Information was set incorrectly!
+Information was set incorrectly!
+Information was set incorrectly!
+Information was set incorrectly!
+Information was set incorrectly!
+Information was set incorrectly!
+                      ----- Testing printInfo function -----
+
+| Type       | Brand            | Model            | Year | Code |     Price |
++------------+------------------+------------------+------+------+-----------+
+| Truck      | Tesla            | Cybertruck       | 2021 |  102 |  65000.00 |
+
+
+                       ----- Car Inventory Information -----
+
+| Type       | Brand            | Model            | Year | Code |     Price |
++------------+------------------+------------------+------+------+-----------+
+| SUV        | Volvo            | XC90             | 2019 |  109 |  80000.00 |
+| Sedan      | BMW              | M550i            | 2022 |  101 |  91000.00 |
+| Truck      | Tesla            | Cybertruck       | 2021 |  102 |  65000.00 |
+| Sedan      | BMW              | M550i            | 2022 |  100 |      1.00 |
+
+************************************************************
+*  WARNING: There are invalid data in the inventory!      *
+************************************************************
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++  WARNING: There are similar entries in the inventory!   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==130962== 
+==130962== HEAP SUMMARY:
+==130962==     in use at exit: 0 bytes in 0 blocks
+==130962==   total heap usage: 19 allocs, 19 frees, 72,806 bytes allocated
+==130962== 
+==130962== All heap blocks were freed -- no leaks are possible
+==130962== 
+==130962== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 01 Jun 2022 09:33:26 PM EDT

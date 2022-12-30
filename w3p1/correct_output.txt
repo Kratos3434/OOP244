@@ -1,0 +1,62 @@
+Script started on Sun 29 May 2022 12:32:09 AM EDT
+==161716== Memcheck, a memory error detector
+==161716== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==161716== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==161716== Command: ws
+==161716== 
+----------------------------------------
+1. Testing the validation logic.
+(only 4 armies should be valid (0,2,3,4) )
+----------------------------------------
+armies[0]: valid
+armies[1]: not valid
+armies[2]: valid
+armies[3]: valid
+armies[4]: valid
+armies[5]: not valid
+----------------------------------------
+
+----------------------------------------
+2. Testing the display function.
+----------------------------------------
+Armies reporting to battle: 
+Nationality: Atlantis, Units Count: 1000, Power left: 500.5
+Nationality: Ambrosia, Units Count: 520, Power left: 215.0
+Nationality: United States of Auradon, Units Count: 751, Power left: 220.5
+Nationality: Azmenistan, Units Count: 750, Power left: 250.0
+----------------------------------------
+
+----------------------------------------
+3. Testing the member functions without the update.
+----------------------------------------
+Foreigners,100,100.0
+----------------------------------------
+
+----------------------------------------
+4. Testing the member functions with the update.
+----------------------------------------
+Foreigners,200,125.0
+----------------------------------------
+
+----------------------------------------
+5. Testing the battle function.
+----------------------------------------
+In battle of Atlantis and Ambrosia, Atlantis is victorious!
+In battle of United States of Auradon and Azmenistan, Azmenistan is victorious!
+Armies reporting to battle: 
+Nationality: Atlantis, Units Count: 1000, Power left: 500.5
+Nationality: Ambrosia, Units Count: 260, Power left: 150.0
+Nationality: United States of Auradon, Units Count: 376, Power left: 126.8
+Nationality: Azmenistan, Units Count: 750, Power left: 250.0
+----------------------------------------
+
+==161716== 
+==161716== HEAP SUMMARY:
+==161716==     in use at exit: 0 bytes in 0 blocks
+==161716==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==161716== 
+==161716== All heap blocks were freed -- no leaks are possible
+==161716== 
+==161716== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 29 May 2022 12:32:10 AM EDT

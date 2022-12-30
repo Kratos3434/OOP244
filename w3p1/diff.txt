@@ -1,0 +1,14 @@
+In line number 32 of your output:
+The output should be:
+Foreigners,100,100.0
+                  ^
+But your output is: 
+Foreigners,100,100
+                   ^
+
+Unmatched character details:
+The character in column 20 is supposed to be:
+  [.] ASCII code(46)
+but you printed
+  [Empty Line] ASCII code(0)
+

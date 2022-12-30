@@ -1,0 +1,62 @@
+Script started on Wed 01 Jun 2022 11:52:58 PM EDT
+==194851== Memcheck, a memory error detector
+==194851== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==194851== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==194851== Command: ws
+==194851== 
+----------------------------------------
+|> T1: Default Constructor
+----------------------------------------
+The basket is empty!
+Test succeeded: operator said the basket is empty!
+
+----------------------------------------
+|> T2: Custom Constructor
+----------------------------------------
+Basket Content:
+     apple: 0.65kg
+    banana: 1.25kg
+Price: 6.99
+Test succeeded: operator said the basket has content!
+
+----------------------------------------
+|> T3: += operator
+----------------------------------------
+Basket Content:
+      pear: 0.50kg
+     apple: 0.65kg
+      plum: 2.00kg
+Price: 12.23
+
+----------------------------------------
+|> T4: Copy Constructor
+----------------------------------------
+Basket #1 -> The basket is empty!
+Basket #2 -> The basket is empty!
+Basket #3 -> Basket Content:
+     mango: 0.75kg
+Price: 3.50
+
+----------------------------------------
+|> T5: Copy Assignment
+----------------------------------------
+Basket #1 -> The basket is empty!
+Basket #2 -> The basket is empty!
+Basket #1 -> Basket Content:
+     apple: 0.65kg
+    banana: 1.25kg
+      pear: 0.50kg
+     mango: 0.75kg
+      plum: 2.00kg
+Price: 19.95
+Basket #3 -> The basket is empty!
+==194851== 
+==194851== HEAP SUMMARY:
+==194851==     in use at exit: 0 bytes in 0 blocks
+==194851==   total heap usage: 9 allocs, 9 frees, 73,504 bytes allocated
+==194851== 
+==194851== All heap blocks were freed -- no leaks are possible
+==194851== 
+==194851== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 01 Jun 2022 11:52:59 PM EDT

@@ -1,0 +1,62 @@
+Script started on Wed 25 May 2022 11:31:34 AM EDT
+==57600== Memcheck, a memory error detector
+==57600== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==57600== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==57600== Command: ws
+==57600== 
+V1.1 corrected the data file records
+Enter data file name: bd.csv
+Birthdate search program
+Enter a month of birth or 0 to exit: 11
+13 birthdates found:
+1) Chelsea Douglas:
+1941-11-18
+===================================
+2) Savana Morgan:
+1942-11-28
+===================================
+3) Joyce Moore:
+1943-11-15
+===================================
+4) Bruce Howard:
+1949-11-6
+===================================
+5) Nicole Andrews:
+1962-11-5
+===================================
+6) Madaline Wells:
+1968-11-1
+===================================
+7) Eddy Cameron:
+1970-11-18
+===================================
+8) James Payne:
+1974-11-28
+===================================
+9) Chelsea Murphy:
+1976-11-25
+===================================
+10) Antony Perry:
+1989-11-6
+===================================
+11) Ellia Craig:
+1991-11-6
+===================================
+12) Dainton Bailey:
+1997-11-7
+===================================
+13) Kevin Martin:
+1998-11-3
+===================================
+Enter a month of birth or 0 to exit: 0
+Birthdate Search Program Closed.
+==57600== 
+==57600== HEAP SUMMARY:
+==57600==     in use at exit: 0 bytes in 0 blocks
+==57600==   total heap usage: 16 allocs, 16 frees, 73,762 bytes allocated
+==57600== 
+==57600== All heap blocks were freed -- no leaks are possible
+==57600== 
+==57600== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 25 May 2022 11:32:07 AM EDT

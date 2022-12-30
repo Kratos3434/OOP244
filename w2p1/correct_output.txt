@@ -1,0 +1,102 @@
+Script started on Fri 20 May 2022 04:25:38 AM EDT
+==8124== Memcheck, a memory error detector
+==8124== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==8124== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==8124== Command: ws
+==8124== 
+1: Abraham Simpson, 324543: A
+2: Artie Ziff, 245446: A
+3: Baby Gerald, 155387: A
+4: Barney Gumble, 262592: A
+5: Bernice Hibbert, 242653: A
+6: Bumblebee Man, 603577: A
+7: Disco Stu, 736389: A
+8: Dolph Starbeam, 829982: A
+9: Drederick Tatum, 937537: A
+10: Elizabeth Hoover, 389470: A
+11: Gloria Jailbird, 601956: A
+12: Jacqueline Bouvier, 522856: A
+13: Janey Powell, 919159: A
+14: Jasper Beardly, 417008: A
+15: Jimbo Jones, 718588: A
+16: Judge Roy Snyder, 533451: A
+17: Lenny Leonard, 562762: A
+18: Lindsey Naegle, 570423: A
+19: Ling Bouvier, 249669: A
+20: Lisa Simpson, 693664: A
+21: Luigi Risotto, 757705: A
+22: Maude Flanders, 272754: A
+23: Mayor Joe Quimby, 425163: A
+24: Milhouse Van Houten, 619711: A
+25: Moe Szyslak, 219634: A
+26: Ned Flanders, 746703: A
+27: Ralph Wiggum, 414067: A
+28: Rod Flanders, 823458: A
+29: Roger Meyers Jr., 313590: A
+30: Sarah Wiggum, 920562: A
+31: Selma Bouvier, 217994: A
+32: Surly Duff, 146127: A
+33: The Rich Texan, 300288: A
+34: Todd Flanders, 257297: A
+35: Uter Zorker, 712465: A
+36: Wendell Borton, 677806: A
+37: Agnes Skinner, 470546: B
+38: Akira Kurosawa, 411928: B
+39: Brandine Spuckler, 584416: B
+40: Carl Carlson, 241968: B
+41: Chazz Busby, 362030: B
+42: Gil Gunderson, 383513: B
+43: Groundskeeper Willie, 774965: B
+44: Hans Moleman, 217944: B
+45: Johnny Tightlips, 840329: B
+46: Kearney Zzyzwicz, 758048: B
+47: Kent Brockman, 568727: B
+48: Luann Van Houten, 737447: B
+49: Lunchlady Doris, 895470: B
+50: Maggie Simpson, 712478: B
+51: Mona Simpson, 419417: B
+52: Nelson Muntz, 584760: B
+53: Old Jewish Man, 259301: B
+54: Sea Captain, 544294: B
+55: Seymour Skinner, 434336: B
+56: Shauna Chalmers, 828516: B
+57: Waylon Smithers, 387433: B
+58: Wise Guy, 134681: B
+59: Alice Glick, 459608: C
+60: Cletus Spuckler, 653783: C
+61: Helen Lovejoy, 686009: C
+62: Kirk Van Houten, 695606: C
+63: Manjula Nahasapeemapetilon, 236261: C
+64: Patty Bouvier, 544545: C
+65: Sideshow Mel, 799960: C
+66: Allison Taylor, 747954: D
+67: Bart Simpson, 753102: D
+68: Comic Book Guy, 234272: D
+69: Edna Krabappel, 877842: D
+70: Herman Hermann, 164996: D
+71: Jessica Lovejoy, 667331: D
+72: Krusty The Clown, 901832: D
+73: Lionel Hutz, 212516: D
+74: Marge Simpson, 695580: D
+75: Miss Springfield, 855862: D
+76: Rabbi Hyman Krustofsky, 374366: D
+77: Ruth Powers, 231018: D
+78: Snake Jailbird, 950955: D
+79: Troy McClure, 394769: D
+80: Apu Nahasapeemapetilon, 290816: F
+81: Dewey Largo, 910346: F
+82: Homer Simpson, 413084: F
+83: Kumiko Albertson, 339422: F
+84: Martin Prince, 575687: F
+85: Rainier Wolfcastle, 674248: F
+86: Squeaky-Voiced Teen, 194002: F
+==8124== 
+==8124== HEAP SUMMARY:
+==8124==     in use at exit: 0 bytes in 0 blocks
+==8124==   total heap usage: 89 allocs, 89 frees, 75,933 bytes allocated
+==8124== 
+==8124== All heap blocks were freed -- no leaks are possible
+==8124== 
+==8124== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 20 May 2022 04:25:39 AM EDT

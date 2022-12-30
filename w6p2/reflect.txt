@@ -1,0 +1,45 @@
+/*
+Name: Keith Carlos
+Section: NHH
+Email: kwcarlos@myseneca.ca
+Student ID: 127638211
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+	The topics that I have learned upon completing this workshop is that I have learned how to 
+implement a copy constructor, a copy constructor basically copies an object like for example in 
+workshop 6 part 2, Basket::Basket(const Basket& basket) { 
+
+	  setEmpty(); 
+
+	  (*this) = basket; 
+
+    } 
+
+I have also learned how to implement a copy assignment operator which is the same as the copy 
+constructor. I set the object’s value equal to the value of the object that I want to copy. Here is a copy 
+assignment operator that I implemented in workshop 6 part 2, Basket& Basket::operator=(const 
+Basket& basket) { 
+
+	  deallocate(); 
+
+	  m_fruits = new Fruit[basket.m_cnt]; 
+
+	  m_cnt = basket.m_cnt; 
+
+	  for (int i = 0; i < m_cnt; i++) 
+
+		m_fruits[i] = basket.m_fruits[i]; 
+
+	  m_price = basket.m_price; 
+
+	  return *this; 
+
+  
+
+    } 
+
+The workshop was straightforward and our professor explained the workshop very well that I didn’t sort 
+of encounter any major problems or difficulty in the workshop. 

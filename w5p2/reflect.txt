@@ -1,0 +1,21 @@
+/*
+Name: Keith Carlos
+Section: NHH
+Email: kwcarlos@myseneca.ca
+Student ID: 127638211
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+The topics that I have learned upon completing this workshop is that I learned how to implement and
+declare an operator. It basically allows us to use operators such as addition, subtraction, plus equals, 
+minus equals, and logical operators on objects depending on how you implement it, for example, in 
+workshop 5 part 2 I can subtract the power level by implementing an operator overload function and 
+there I put power level minus equals to the number I want to subtract. I can also overload the output 
+stream or ostream so that I can print the results on the console without using cout. The most difficult 
+part in the workshop is the plus equals operator where I have to add and increase the size of the array 
+and add a power to the power list, I solved it by creating a temporary power object array and I stored 
+the values of the existing list of powers and then I increased the number of powers and I stored again 
+the values of temp back to the list of powers and I added the new power to the list and also updated the 
+power level.

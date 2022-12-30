@@ -1,0 +1,45 @@
+Script started on Thu 16 Jun 2022 03:35:10 AM EDT
+==2471== Memcheck, a memory error detector
+==2471== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2471== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2471== Command: ws
+==2471== 
+'Object Oriented Programming using C++' book now has 1 chpaters!
+'Object Oriented Programming using C++' book now has 2 chpaters!
+'Object Oriented Programming using C++' book now has 3 chpaters!
+'Object Oriented Programming using C++' book now has 4 chpaters!
+ is empty!
+Java Programming is empty!
+Go Programming is empty!
+Java Programming is empty!
+Fluent Python is not empty!
+Object Oriented Programming using C++ is not empty!
+---------------------------------------------------------------------
+Title:'Object Oriented Programming using C++'
+Author: 'Bjarne Stroustrup'
+| Chapter 1  | Introduction         |
+| Chapter 2  | Language History     |
+| Chapter 3  | Varibales            |
+| Chapter 4  | Flow Control         |
+---------------------------------------------------------------------
+Orignal prices:
+| Object Oriented Programming using C++    | Bjarne Stroustrup    | 4    96   | 89.56  |
+| Fluent Python                            | Luciano Romalho      | 1    10   | 38.5   |
+---------------------------------------------------------------------
+After discount prices:
+| Object Oriented Programming using C++    | Bjarne Stroustrup    | 4    96   | 81.06  |
+| Fluent Python                            | Luciano Romalho      | 1    10   | 31.5   |
+---------------------------------------------------------------------
+'Object Oriented Programming using C++' book has 4 chapters.
+Final price of 'Object Oriented Programming using C++' book: $81.06
+First chpater of 'Object Oriented Programming using C++' book has 10 pages and an avarage of 485.3 words per page.
+==2471== 
+==2471== HEAP SUMMARY:
+==2471==     in use at exit: 0 bytes in 0 blocks
+==2471==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==2471== 
+==2471== All heap blocks were freed -- no leaks are possible
+==2471== 
+==2471== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 16 Jun 2022 03:35:11 AM EDT

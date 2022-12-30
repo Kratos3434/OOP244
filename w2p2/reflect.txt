@@ -1,0 +1,31 @@
+The topics I have learned upon completing this workshop is that I have learned how to allocate memory 
+to an array of struct and to an array of characters. I have also learned how to deallocate memory so that 
+the allocated memories that I allocated to the arrays are released back to the computer’s RAM. The 
+difficulty that I encountered was coding the readBirthDate function. It was difficult because it’s not like
+in c that the length of the array is already declared. I solved it with the help of our professor, he helped 
+us how to count the number of records matched. The hard part was to store the values into the array 
+which I was able to solve earlier. What I did was I read the values using local variables while fscanf is not 
+equal to –1 and “i” is not equal to the number of matches and I stored the read data to the array of 
+struct Employee. Here is the code or the solution that I did: 
+
+while (fscanf(fptr, "%[^,],%d/%d/%d\n", name,&m, &d, &y) !=-1 && i<matches) { 
+
+		    if (m==month) { 
+
+				employees[i].name = new char[strlen(name) + 1]; 
+
+				strcpy(employees[i].name, name); 
+
+				employees[i].month = m; 
+
+				employees[i].day = d; 
+
+				employees[i].year = y; 
+
+				i++; 
+
+				ok = true; 
+
+		    } 
+
+		}  

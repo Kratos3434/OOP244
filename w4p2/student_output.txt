@@ -1,0 +1,41 @@
+Script started on Mon 13 Jun 2022 02:26:51 AM EDT
+==2667== Memcheck, a memory error detector
+==2667== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2667== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2667== Command: ws
+==2667== 
+         ------ Cleaner Bots Report -----
+     ---------------------------------------
+| Location   | Battery |  Number of Brushes | Active |
+|------------+---------+--------------------+--------|
+| library    |    82.5 |                  7 | NO     |
+| corridor   |    75.0 |                  3 | YES    |
+| pantry     |    23.6 |                 12 | NO     |
+| parking    |    30.1 |                  9 | YES    |
+| storage    |    57.0 |                  2 | YES    |
+| basement   |    29.9 |                  1 | YES    |
+
+|====================================================|
+| LOW BATTERY WARNING:                               |
+|====================================================|
+| Number of robots to be charged: 2                  |
+| Sorting robots based on their available power:     |
+| Location   | Battery |  Number of Brushes | Active |
+|------------+---------+--------------------+--------|
+| library    |    82.5 |                  7 | NO     |
+| corridor   |    75.0 |                  3 | YES    |
+| storage    |    57.0 |                  2 | YES    |
+| parking    |    30.1 |                  9 | YES    |
+| basement   |    29.9 |                  1 | YES    |
+| pantry     |    23.6 |                 12 | NO     |
+|====================================================|
+==2667== 
+==2667== HEAP SUMMARY:
+==2667==     in use at exit: 0 bytes in 0 blocks
+==2667==   total heap usage: 7 allocs, 7 frees, 72,753 bytes allocated
+==2667== 
+==2667== All heap blocks were freed -- no leaks are possible
+==2667== 
+==2667== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 13 Jun 2022 02:26:52 AM EDT
