@@ -1,0 +1,113 @@
+Script started on Thu 09 Jun 2022 10:46:42 PM EDT
+==20973== Memcheck, a memory error detector
+==20973== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20973== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==20973== Command: ws
+==20973== 
+Simpons Family:
+Abraham Simpson
+Bart Simpson
+Homer Simpson
+Lisa Simpson
+Maggie Simpson
+Marge Simpson
+Mona Simpson
+
+sorted.txt----------------------------------------
+1: Kumiko Albertson
+2: Jasper Beardly
+3: Comic Book Guy
+4: Wendell Borton
+5: Jacqueline Bouvier
+6: Ling Bouvier
+7: Patty Bouvier
+8: Selma Bouvier
+9: Kent Brockman
+10: Chazz Busby
+11: Sea Captain
+12: Carl Carlson
+13: Shauna Chalmers
+14: Lunchlady Doris
+15: Surly Duff
+16: Ned Flanders
+17: Rod Flanders
+18: Todd Flanders
+19: Maude Flanders[D]
+20: Baby Gerald
+21: Alice Glick
+22: Barney Gumble
+23: Gil Gunderson
+24: Wise Guy
+25: Herman Hermann
+26: Bernice Hibbert
+27: Elizabeth Hoover
+28: Lionel Hutz
+29: Rabbi Hyman Krustofsky
+30: Gloria Jailbird
+31: Snake Jailbird
+32: Old Jewish Man
+33: Mayor Joe Quimby
+34: Jimbo Jones
+35: Edna Krabappel
+36: Akira Kurosawa
+37: Dewey Largo
+38: Lenny Leonard
+39: Helen Lovejoy
+40: Jessica Lovejoy
+41: Bumblebee Man
+42: Troy McClure
+43: Sideshow Mel
+44: Roger Meyers Jr.
+45: Hans Moleman
+46: Nelson Muntz
+47: Lindsey Naegle
+48: Apu Nahasapeemapetilon
+49: Manjula Nahasapeemapetilon
+50: Janey Powell
+51: Ruth Powers
+52: Martin Prince
+53: The Rich Texan
+54: Luigi Risotto
+55: Judge Roy Snyder
+56: Abraham Simpson
+57: Bart Simpson
+58: Homer Simpson
+59: Lisa Simpson
+60: Maggie Simpson
+61: Marge Simpson
+62: Mona Simpson
+63: Agnes Skinner
+64: Seymour Skinner
+65: Waylon Smithers
+66: Miss Springfield
+67: Brandine Spuckler
+68: Cletus Spuckler
+69: Dolph Starbeam
+70: Disco Stu
+71: Moe Szyslak
+72: Drederick Tatum
+73: Allison Taylor
+74: Squeaky-Voiced Teen
+75: Krusty The Clown
+76: Johnny Tightlips
+77: Kirk Van Houten
+78: Luann Van Houten
+79: Milhouse Van Houten
+80: Ralph Wiggum
+81: Sarah Wiggum
+82: Groundskeeper Willie
+83: Rainier Wolfcastle
+84: Artie Ziff
+85: Uter Zorker
+86: Kearney Zzyzwicz
+87: END OF DATA---------------------------------------
+==20973== 
+==20973== HEAP SUMMARY:
+==20973==     in use at exit: 0 bytes in 0 blocks
+==20973==   total heap usage: 26,956 allocs, 26,956 frees, 666,064 bytes allocated
+==20973== 
+==20973== All heap blocks were freed -- no leaks are possible
+==20973== 
+==20973== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 09 Jun 2022 10:46:43 PM EDT

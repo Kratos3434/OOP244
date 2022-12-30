@@ -1,0 +1,44 @@
+/*
+Name: Keith Carlos
+Section: NHH
+Email: kwcarlos@myseneca.ca
+Student ID: 127638211
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+
+	
+	Upon completing this workshop, I have learned the concept of abstraction. Abstraction is 
+basically displaying only essential information and hiding the details like for example, a user just needs 
+to press one button to take a picture, but there are many functionalities behind that button and the user 
+doesn’t need to know about that and just the button to take a picture. I also learned how to implement 
+a virtual function and a pure virtual function. A virtual function is implemented by adding the ‘virtual’ 
+keyword at the start of the function, like ‘virtual add();’. A pure virtual function is the same as a virtual
+function, but you make it equal to zero, for example, ‘virtual add()=0;’. You usually implement a virtual 
+function(s) when you want to create an interface. An interface is an abstract base class and you let the 
+derive class code the implementation of the pure virtual functions via polymorphism. An example of 
+abstraction from this workshop where I implemented the abstract base class or the inteface of the workshop: 
+
+namespace sdds { 
+
+    class iAccount { 
+
+    public: 
+
+	  virtual bool credit(double) = 0; 
+
+	  virtual bool debit(double) = 0; 
+
+	  virtual void monthEnd() = 0; 
+
+	  virtual void display(std::ostream&) const = 0; 
+
+	  virtual ~iAccount(){}; 
+
+    }; 
+
+    iAccount* CreateAccount(const char*, double); 
+
+} 

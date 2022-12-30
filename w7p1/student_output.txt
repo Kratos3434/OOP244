@@ -1,0 +1,62 @@
+Script started on Tue 12 Jul 2022 03:59:23 AM EDT
+==4929== Memcheck, a memory error detector
+==4929== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4929== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4929== Command: ws
+==4929== 
+--------------------------------------------------------------
+|> Person 1: MemberParliament
+--------------------------------------------------------------
+| MP9403 | 59 | Unassigned
+
+|  MP9403| |          Unassigned ---> Scarborough            |
+|  MP9403| |         Scarborough ---> Mississauga            |
+|  MP9403| |         Mississauga ---> Huron County           |
+
+| MP9403 | 59 | Huron County
+
+--------------------------------------------------------------
+|> Person 2: Read/Write
+--------------------------------------------------------------
+Age: 40
+Id: MP9566
+District: Milton
+
+| MP9566 | 40 | Milton
+
+--------------------------------------------------------------
+|> Person 3: Minister
+--------------------------------------------------------------
+|  MP9573| |          Unassigned ---> Pickering              |
+
+|  MP9573| |           Pickering ---> Whitby                 |
+Status of New Election | MP9573 | 63 | Whitby | Trudeau/2007
+
+|  MP9573| |              Whitby ---> Kitchener              |
+Status of New Election | MP9573 | 63 | Kitchener | Biden/2010
+
+|  MP9573| |           Kitchener ---> Oakville               |
+Status of New Election | MP9573 | 63 | Oakville | Trump/2015
+
+--------------------------------------------------------------
+|> Person 4: Read/Write
+--------------------------------------------------------------
+Age: 66
+Id: MP9701
+District: Sudbury
+Reports TO: Obama
+Year Assumed Office: 2021
+
+| MP9701 | 66 | Sudbury
+| MP9701 | 66 | Sudbury | Obama/2021
+
+==4929== 
+==4929== HEAP SUMMARY:
+==4929==     in use at exit: 0 bytes in 0 blocks
+==4929==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==4929== 
+==4929== All heap blocks were freed -- no leaks are possible
+==4929== 
+==4929== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 12 Jul 2022 04:00:29 AM EDT

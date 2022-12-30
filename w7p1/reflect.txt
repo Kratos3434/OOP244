@@ -1,0 +1,32 @@
+/*
+Name: Keith Carlos
+Section: NHH
+Email: kwcarlos@myseneca.ca
+Student ID: 127638211
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+
+Upon completing this workshop, I have learned the concepts of inheritance by implementing a 
+base class and a derived class. In this workshop the base class was the MemberParliament class and the 
+derived class was the Minister class. I inherited the public functions of the MemberParliament class by 
+doing “class Minister:public MemberParliament”. By inhertiting the MemberParliament class I can easily 
+do the write function without implementing another code by just simply putting the write function of 
+the MemberParliament class to the Minister class and I did the same with the read function and just 
+added a few lines of codes needed for the Minister read and write functions. An example from my code:  
+
+std::ostream& Minister::write(std::ostream& os) const{ 
+
+	  //| [ID] | [age] | [DISTRICT] | [PM] / [Year Assumed Office] 
+
+	  MemberParliament::write(os); 
+
+	  os <<" | " << m_ministerName << "/" << m_year; 
+
+	  return os; 
+
+    } 
+
+As you can see the number of lines of codes have greatly reduced due to inheritance. 

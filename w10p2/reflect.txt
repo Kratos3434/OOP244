@@ -1,0 +1,19 @@
+	Upon completing this workshop, I have learned how to code function templates and to 
+implement calls to function templates. Function templates are special functions that can operate with 
+generic types. This means that we can create a function that can adapt to more than one data type or 
+class. This is very helpful if you want to create the same function, but need to use it on different class or 
+data type. This reduces the amount of code needed to create the function since you only need to create 
+one function. You can implement a function by first typing template and then a less than sign and inside 
+this, you can put typename. You can put as many typenames as you want depending on your function 
+like for example: “template <typename T1, typename T2> “. Here is an example of an implementation of 
+a function template in this workshop: 
+
+//Find with 3 parameters 
+
+    template <typename T1, typename T2> 
+
+    bool find(T1 t_array[], int index, T2 t_key) { 
+
+	  return t_array[index] == t_key; 
+
+    } 

@@ -1,0 +1,71 @@
+	/*
+Name: Keith Carlos
+Section: NHH
+Email: kwcarlos@myseneca.ca
+Student ID: 127638211
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+
+	Upon completing this workshop, I have learned how to implement derived classes with 
+resources. I have learned how to override virtual functions from the base class to the derived class. A 
+virtual function means that the function of the derived class will be called first instead of the base class's
+function. If I don’t add the virtual keyword then the base class’s function will be called first which is not 
+good since we want the function in the derived class to be called. I also learned how to implement 
+the base class constructor, copy constructor and copy assignment since the derived class does not inherit 
+the base class’s constructor. In the FullName module I have a constructor with two arguments, the first 
+and the last name. Since I have a constructor for the first name that is the base class constructor, I called 
+the base class constructor and for the copy constructor and copy assignment. To easily understand what 
+I mean, here is the code from this workshop: 
+
+FullName::FullName(const char* name, const char* lastName):Name(name) { 
+
+	  if (lastName) { 
+
+		m_value = new char[strlen(lastName) + 1]; 
+
+		strcpy(m_value, lastName); 
+
+	  } 
+
+	  else m_value = nullptr; 
+
+    } 
+
+    // Rule of three goes here: 
+
+    FullName::FullName(const FullName& fn):Name(fn) { 
+
+	  if (fn.m_value) { 
+
+		m_value = new char[strlen(fn.m_value) + 1]; 
+
+		strcpy(m_value, fn.m_value); 
+
+	  } 
+
+	  else m_value = nullptr; 
+
+    } 
+
+    FullName& FullName::operator=(const FullName& fn) { 
+
+	  (Name&)*this = fn; 
+
+	  delete[] m_value; 
+
+	  m_value = nullptr; 
+
+	  if (fn.m_value) { 
+
+		m_value = new char[strlen(fn.m_value) + 1]; 
+
+		strcpy(m_value, fn.m_value); 
+
+	  } 
+
+	  return *this; 
+
+    } 

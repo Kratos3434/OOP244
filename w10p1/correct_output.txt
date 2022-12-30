@@ -1,0 +1,61 @@
+Script started on Fri 10 Jun 2022 09:54:05 PM EDT
+==203471== Memcheck, a memory error detector
+==203471== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==203471== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==203471== Command: ws
+==203471== 
+Printing all the Cards:
+King of Hearts
+7 of Clubs
+5 of Spades
+Jack of Diamonds
+10 of Hearts
+Ace of Spades
+Queen of Diamonds
+
+Searching for King of Hearts, Jack of Diamonds and 10 of Spades cards: 
+Ace of Spades
+Jack of Diamonds
+King of Hearts
+10 of Hearts
+
+(34567 IncorrectTitle), is not in our collection of books
+
+Our results of our Book search: (Dune, IncorrectTitle, Frankenstein, Foundation)
+23456 Dune (Author: Frank Herbert) Price: $9.99
+67890 Frankenstein (Author: Mary Shelly) Price: $4.99
+45678 Foundation (Author: Issac Asimov) Price: $19.99
+
+All the books listed in our collection: 
+23456 Dune (Author: Frank Herbert) Price: $9.99
+45678 Foundation (Author: Issac Asimov) Price: $19.99
+56789 The Lord of the Rings (Author: J.R.R. Tolkien) Price: $7.99
+67890 Frankenstein (Author: Mary Shelly) Price: $4.99
+34567 The Martian (Author: Andy Weir) Price: $10.50
+12345 The Hitchhiker's Guide to the Galaxy (Author: Douglas Adams) Price: $12.99
+
+All the Pets listed in our collection: 
+Type: Rat, Name: Carl Age: 3
+Type: Rabbit, Name: Mindy Age: 2
+Type: Weasel, Name: Lenny Age: 4
+Type: Dog, Name: Waylon Age: 7
+Type: Cat, Name: Frank Age: 12
+Type: Dog, Name: Billy Joel Age: 13
+
+Our results of our Pet Query: (Dog)
+Type: Dog, Name: Waylon Age: 7
+Type: Dog, Name: Billy Joel Age: 13
+
+Our results of int Filter:
+90
+90
+==203471== 
+==203471== HEAP SUMMARY:
+==203471==     in use at exit: 0 bytes in 0 blocks
+==203471==   total heap usage: 35 allocs, 35 frees, 79,070 bytes allocated
+==203471== 
+==203471== All heap blocks were freed -- no leaks are possible
+==203471== 
+==203471== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 10 Jun 2022 09:54:06 PM EDT

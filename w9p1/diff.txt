@@ -1,0 +1,14 @@
+In line number 9 of your output:
+The output should be:
+Bart Simpson
+^
+But your output is: 
+Lisa Simpson
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [B] ASCII code(66)
+but you printed
+  [L] ASCII code(76)
+
